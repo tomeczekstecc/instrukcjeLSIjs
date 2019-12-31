@@ -1,27 +1,23 @@
+const container = document.getElementById("main-container");
 
 
-const container = document.getElementById('main-container')
+prepareDocs()
 
-const generateDocs = () => {
 
-  fetch('../db.json', {
-    method: 'GET', // *GET, POST, PUT, DELETE, etc.
-    mode: 'no-cors', // no-cors, *cors, same-origin
-    // credentials: 'same-origin', // include, *same-origin, omit
-    headers: {
-      'Content-Type': 'application/json'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    }
-  })
+function generateDocs() {
+ return fetch("../db.json")
     .then(res => res.json())
-    .then(res => {
+    .then(data =>
+     data.docs
+    ).catch(err=>console.log(err))
+};
 
-      const data = res.docs
-      const prepareDocs = (data) => {
+async function prepareDocs () {
+  try {
+    const data = await generateDocs()
+    for (let i = 0; i <= data.length; i++) {
+      container.innerHTML += `
 
-        for (let i = 0; i <= data.length; i++) {
-          container.innerHTML +=
-            `
         <div id='${data[i].premiereTag}' class="doc col-sm-6 col-md-4 slide">
           <div class="slide_content">
             <div>${data[i].title}</div>
@@ -52,16 +48,11 @@ const generateDocs = () => {
                       <i class="icon-back-in-time"></i>Poprzednia wersja: ${data[i].prevVer}
                     </div>
                 </div>
-      </div>
-            </div>
-            `}
-      }
-      prepareDocs(data)
-    })
-    .catch(err => console.log(err))
-}
+               </div>
+            `;
+    }
+  } catch (err) {
+    console.log(err)
+  }
 
-
-
-generateDocs()
-
+};
