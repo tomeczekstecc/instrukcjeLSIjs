@@ -1,23 +1,51 @@
-const container = document.getElementById("main-container");
+const oper_container = document.getElementById("oper-container");
+const ben_container = document.getElementById("ben-container");
+const archive_container = document.getElementById("archive-container");
 
 
-prepareDocs()
+prepareDocs('docsOper')
+prepareDocs('docsBen')
+prepareDocs('docsArchive')
 
 
-function generateDocs() {
- return fetch("../db.json")
+
+function generateDocs(type) {
+  return fetch("../db.json")
     .then(res => res.json())
-    .then(data =>
-     data.docs
-    ).catch(err=>console.log(err))
+    .then(data => {
+      if (type === 'docsOper') {
+        return data.docsOper
+      } else if (type === 'docsBen') {
+        return data.docsBen
+      } else if (type === 'docsArchive') {
+        return data.docsArchive
+      }
+    }
+    ).catch(err => console.log(err))
 };
 
-async function prepareDocs () {
-  try {
-    const data = await generateDocs()
-    for (let i = 0; i <= data.length; i++) {
-      container.innerHTML += `
 
+
+
+async function prepareDocs(type) {
+  try {
+    const data = await generateDocs(type)
+    for (let i = 0; i <= data.length; i++) {
+      let container =''
+      let archive = ''
+      let poprzedniaWersja = 'Poprzednia wersja: '
+
+      if (type === 'docsOper') {
+        container = oper_container
+      } else if (type === 'docsBen') {
+        container = ben_container
+      } else if (type === 'docsArchive') {
+        container = archive_container
+        archive = 'archive'
+        poprzedniaWersja = ''
+      }
+
+      container.innerHTML += `
         <div id='${data[i].premiereTag}' class="doc col-sm-6 col-md-4 slide">
           <div class="slide_content">
             <div>${data[i].title}</div>
@@ -45,7 +73,7 @@ async function prepareDocs () {
                   <br>
                     <i class="icon-bookmark"></i>Liczba stron: ${data[i].pagesCount}
                     <br>
-                      <i class="icon-back-in-time"></i>Poprzednia wersja: ${data[i].prevVer}
+                      <i class="icon-back-in-time"></i>${poprzedniaWersja}<span class="${archive}">${data[i].prevVer}</span>
                     </div>
                 </div>
                </div>

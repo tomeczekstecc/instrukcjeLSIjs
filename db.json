@@ -1,9 +1,9 @@
 {
-  "docs": [
+  "docsOper": [
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Wnioski o dofinansowanie w ramach LSI dla Operatorów EFS",
-      "shortTitle":"KARTA OCENY",
+      "shortTitle": "BEN",
       "pdfLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.pdf",
       "zipLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.zip",
       "imgLink": "img/[2.0] Instrukcja WND operator.png",
@@ -11,12 +11,12 @@
       "ver": "2.0",
       "pagesCount": "79",
       "prevVer": "1.0",
-      "premiereTag":"newDoc"
+      "premiereTag": "newDoc"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
-      "shortTitle":"NABORY",
+      "shortTitle": "NABORY",
       "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
       "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
       "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
@@ -24,12 +24,12 @@
       "ver": "2.0",
       "pagesCount": "83",
       "prevVer": "1.0",
-      "premiereTag":"newDoc2"
+      "premiereTag": "newDoc2"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Wnioski o dofinansowanie w ramach LSI dla Operatorów EFS",
-      "shortTitle":"KARTA OCENY",
+      "shortTitle": "BEN",
       "pdfLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.pdf",
       "zipLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.zip",
       "imgLink": "img/[2.0] Instrukcja WND operator.png",
@@ -37,12 +37,12 @@
       "ver": "2.0",
       "pagesCount": "79",
       "prevVer": "1.0",
-      "premiereTag":"newDoc"
+      "premiereTag": "newDoc3"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
-      "shortTitle":"NABORY",
+      "shortTitle": "NABORY",
       "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
       "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
       "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
@@ -50,12 +50,12 @@
       "ver": "2.0",
       "pagesCount": "83",
       "prevVer": "1.0",
-      "premiereTag":"newDoc2"
+      "premiereTag": "newDoc2"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
-      "shortTitle":"NABORY",
+      "shortTitle": "NABORY",
       "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
       "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
       "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
@@ -63,12 +63,12 @@
       "ver": "2.0",
       "pagesCount": "83",
       "prevVer": "1.0",
-      "premiereTag":"newDoc2"
+      "premiereTag": "newDoc2"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
-      "shortTitle":"NABORY",
+      "shortTitle": "NABORY",
       "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
       "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
       "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
@@ -76,12 +76,12 @@
       "ver": "2.0",
       "pagesCount": "83",
       "prevVer": "1.0",
-      "premiereTag":"newDoc2"
+      "premiereTag": "newDoc2"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
-      "shortTitle":"NABORY",
+      "shortTitle": "NABORY",
       "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
       "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
       "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
@@ -89,12 +89,12 @@
       "ver": "2.0",
       "pagesCount": "83",
       "prevVer": "1.0",
-      "premiereTag":"newDoc2"
+      "premiereTag": "newDoc2"
     },
     {
       "id": 1,
       "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
-      "shortTitle":"NABORY",
+      "shortTitle": "NABORY",
       "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
       "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
       "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
@@ -102,7 +102,219 @@
       "ver": "2.0",
       "pagesCount": "83",
       "prevVer": "1.0",
-      "premiereTag":"newDoc2"
+      "premiereTag": "newDoc2"
+    }
+  ],
+  "docsBen": [
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Wnioski o dofinansowanie w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.pdf",
+      "zipLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja WND operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "79",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Wnioski o dofinansowanie w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.pdf",
+      "zipLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja WND operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "79",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "NABORY",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "NABORY",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "NABORY",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    }
+  ],
+  "docsArchive": [
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Wnioski o dofinansowanie w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.pdf",
+      "zipLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja WND operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "79",
+      "prevVer": "ARCHIWALNY",
+      "premiereTag": "newDoc"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "ARCHIWALNY",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Wnioski o dofinansowanie w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.pdf",
+      "zipLink": "ins_pdf/WND_operator/[2.0]Instrukcja_operatora_WND_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja WND operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "79",
+      "prevVer": "ARCHIWALNY",
+      "premiereTag": "newDoc"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "ARCHIWALNY",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "NABORY",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "ARCHIWALNY",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "NABORY",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "ARCHIWALNY",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "NABORY",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "1.0",
+      "premiereTag": "newDoc2"
+    },
+    {
+      "id": 1,
+      "title": "Instrukcja wypełniania modułu Nabory w ramach LSI dla Operatorów EFS",
+      "shortTitle": "BEN",
+      "pdfLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.pdf",
+      "zipLink": "ins_pdf/Nabory_operator/[2.0] Instrukcja_operatora_Nabory_v02.zip",
+      "imgLink": "img/[2.0] Instrukcja Nabory operator.png",
+      "publishDate": "IX.2019",
+      "ver": "2.0",
+      "pagesCount": "83",
+      "prevVer": "",
+      "premiereTag": "newDoc2"
     }
   ]
 }
