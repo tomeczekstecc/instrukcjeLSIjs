@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style_main.css">
     <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="jquery.scrollTo.min.js"></script>
+
     <link rel="Shortcut icon" href="img/rwd_lsi.png">
 
 </head>
@@ -154,31 +154,6 @@
     <script src="bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-
-    <script src="jquery-1.11.3.min.js"></script>
-
-    <script>
-
-        $(document).ready(function () {
-            var NavY = $('#menu').offset().top;
-
-            var stickyNav = function () {
-                var ScrollY = $(window).scrollTop();
-
-                if (ScrollY > NavY) {
-                    $('#menu').addClass('sticky');
-                } else {
-                    $('#menu').removeClass('sticky');
-                }
-            };
-
-            stickyNav();
-
-            $(window).scroll(function () {
-                stickyNav();
-            });
-        });
-    </script>
 
 </body>
 
